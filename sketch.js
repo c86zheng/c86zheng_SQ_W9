@@ -505,6 +505,9 @@ function drawDebugPanel() {
   textAlign(LEFT);
   text("DEBUG MODE (D to close)", 12, height - 68);
 
+  let nextCardText = nextCard.value;
+  text("Next card: " + nextCardText , 150, height - 68);
+
   let buttons = [
     { label: "S: Start", x: 12, w: 78 },
     { label: "1: Level 1", x: 98, w: 88 },
